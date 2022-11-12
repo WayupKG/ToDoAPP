@@ -1,0 +1,67 @@
+.tasks {
+    display: block;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 0;
+
+        & .search input {
+            font-size: 20px;
+            width: 400px;
+        }
+
+        & .button__link {
+            font-size: 16px;
+            padding: 10px 15px;
+        }
+    }
+
+    &__list {
+        &-table {
+            display: inline-block;
+            width: 100%;
+
+            & th {
+                border: 1px solid $main-color;
+                letter-spacing: 1px;
+                padding: 10px 5px;
+
+                &:nth-child(1) {
+                    width: 10%;
+                }
+                &:nth-child(2) {
+                    width: 40%;
+                }
+                &:nth-child(3) {
+                    width: 15%;
+                }
+                &:nth-child(4) {
+                    width: 15%;
+                }
+                &:nth-child(5) {
+                    width: 20vw;
+                }
+                &:nth-child(6) {
+                    width: 20vw;
+                }
+            }
+
+            & td {
+                border: 1px solid $main-color;
+                padding: 10px 5px;
+                & .action {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+
+                    &__share {
+                        margin: 0 15px;
+                    }
+                }
+            }
+        }
+    }
+}

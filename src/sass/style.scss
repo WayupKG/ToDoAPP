@@ -1,0 +1,29 @@
+@import 'base/variables';
+@import 'base/fonts';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/title';;
+@import 'blocks/footer';
+@import 'blocks/btn';
+@import 'blocks/hero_index';
+@import 'blocks/tasks';
+@import 'blocks/pagination';
