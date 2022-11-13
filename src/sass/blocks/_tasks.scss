@@ -1,4 +1,15 @@
 .task {
+    &::before {
+        content: "";
+        top: 0;
+        position: absolute;
+        background: url(../../img/bg/task.svg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+    }
     &__link {
         color: #fff;
         background: #566ffe;
@@ -16,7 +27,7 @@
         margin-bottom: 0;
         font-size: 45px;
         font-weight: 700;
-        color: #183b56;
+        color: #fff;
         letter-spacing: -.02em;
     }
     &__list {
@@ -28,7 +39,7 @@
                 letter-spacing: 1px;
                 padding: 10px 5px;
                 font-size: 17px;
-                color: #183b56;
+                color: #fff;
                 &:nth-child(1) {
                     width: 10%;
                 }
@@ -51,6 +62,7 @@
             & td {
                 border: 2px solid $main-color;
                 padding: 10px 5px;
+                color: #fff;
                 & .action {
                     display: flex;
                     justify-content: center;
@@ -90,21 +102,24 @@
     position: relative;
     i {
         position: absolute;
-        top: 14px;
+        top: 16px;
         left: 8px;
-        font-size: 18px;
+        font-size: 16px;
         color: #566ffe;
         font-weight: 600;
+        background-color: #fff;
+        border-radius: 100px;
+        padding: 0 3px;
     }
 }
 .form-control  {
-    padding: 0.5rem 1.90rem;
+    padding: 0.5rem 1.99rem;
     border: 2px solid #6a7eef;
     line-height: 2;
     font-size: 18px;
+    background: #F7CACA;
     transition: all .4s;
     &:focus  {
-        box-shadow: -1px 9px 32px 10px rgba(34, 60, 80, 0.2);
-        border: 2px solid #566ffe;  
+        background-color: #fff;
     }
 }
