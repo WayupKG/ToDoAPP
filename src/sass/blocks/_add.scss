@@ -22,27 +22,9 @@
         padding: 15px;
         resize: none;
     }
-    &__title {
-        display: flex;
-        justify-content: end;
-        padding-top: 38px;
-        font-size: 45px;
-        font-weight: 700;
-        color: #fff;
-        letter-spacing: -.02em;
-        margin-bottom: 0;
-    }
-    &__button {
-        border: none;
-        padding: 15px 40px 15px 28px;
-    }
     &__mt {
         margin-top: 58px;
         position: relative;
-        i {
-            position: absolute;
-            top: 15px;
-            margin-left: 6px;
-        }
+        
     }
 }

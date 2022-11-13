@@ -1,6 +1,24 @@
-.section-title {
+.title {
+    font-size: 74px;
     font-weight: 700;
-    font-size: 37px;
-    line-height: 46px;
     color: $title-color;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    &__task {
+        margin-bottom: 0;
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: -.02em;
+    }
+    &__add {
+        display: flex;
+        justify-content: end;
+        padding-top: 38px;
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: -.02em;
+        margin-bottom: 0;
+    }
 }

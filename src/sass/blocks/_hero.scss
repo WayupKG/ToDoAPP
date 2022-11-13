@@ -18,30 +18,11 @@
     &__center {
         margin-top: 70px;
     }
-    &__title {
-        font-size: 74px;
-        font-weight: 700;
-        color: #183b56;
-        line-height: 1.2;
-        letter-spacing: -0.02em;
-    }
     &__descr {
-        font-size: 17px;
+        font-size: 18px;
         color: #6f7d95;
         line-height: 1.6;
-    }
-    &__btn {
-        display: inline-block;
-        background-color: #566ffe ;
-        margin-top: 10px;
-        border-radius: 100px;
-        color: white;
-        padding: 11px 23px;
-        text-decoration: none;
-        transition: all 800ms;
-        &:hover {
-            background-color: #4861ee ;
-        }
+        margin-bottom: 0;
     }
     .sh-1 {
         position: absolute ;
