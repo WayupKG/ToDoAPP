@@ -69,6 +69,10 @@
                             <label for="description_id">Описание</label>
                             <textarea name="description" class="form-control add__textarea" rows="10" id="description_id" placeholder="Сообщения" required></textarea>
                         </div>
+                        <div class="add__group mt-3">
+                            <label for="description_id">Дата добавление</label>
+                            <input type="date" name="bday" class="form-control add__textarea" required pattern="\d{4}-\d{2}-\d{2}">
+                        </div>
                     </div>
                     <div class="col-lg-5">
                        <h2 class="title__add">Добавить задачу</h2>
@@ -80,42 +84,7 @@
             </form>
         </div>
     </section>
-    <!-- <div class="col-lg-7">
-        <div class="form-group">
-            <label for="title_id">Тема задачи</label>
-            <input type="text" name="title" class="form-control" id="title_id" placeholder="Название" required>
-        </div>
-        <div class="form-group">
-            <label for="description_id">Описание</label>
-            <textarea name="description" class="form-control" rows="10" id="description_id" required></textarea>
-        </div>
-    </div>
-    <div class="col-lg-5">
-       <h2 class="add__title">Добавить задачу</h2>
-        <div class="add__group">
-            <button type="submit" class="add__button">Добавить</button>
-        </div>
-    </div> -->
-
-    <!-- <form method="GET" class="add__form">
-        <div class="form-group">
-            <label for="title_id">Тема задачи</label>
-            <input type="text" name="title" class="form-control" id="title_id" placeholder="Название" required>
-        </div>
-        <div class="form-group">
-            <label for="description_id">Описание</label>
-            <textarea name="description" class="form-control" rows="10" id="description_id" required></textarea>
-        </div>
-        <div class="form-group">
-            <label for="title_id">Окончание срока</label>
-            <input type="date" class="form-control" name="end_data" id="end_data_id" required>
-        </div>
-        <div class="form-group text-center">
-            <button type="submit" class="button__form">Добавить</button>
-        </div>
-    </form> -->
-
-
+   
 <!-- Scripts -->
 <script src="plugins/jQuery/jquery-3.3.1.min.js"></script>
 <script src="plugins/jQuery/jquery-migrate-3.3.1.js"></script>
